@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturn Sound</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Icons/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div>
+            <img class="icon" src="Icons/icon.png" alt="">
+            <h1>Saturn Sound</h1>
+        </div>
+        <div class="linha"></div>
+    </header>
+    
+    <div class="container">
+        <div class="playlist">
+            <h1>Playlist</h1>
+            <hr>
+            <div id="songs">
+                <!-- <div class="track" onclick="start(1)">
+                    <div>
+                        <img class="capa" src="" alt="">
+                        <div>
+                            <b>Nome da musica</b>
+                            <p>Artista</p>
+                        </div>
+                    </div>
+                    <p>0:00</p>
+                </div> -->
+            </div>
+        </div>
+
+        <div id="vazio">
+            <div>
+                Selecione uma música para tocar
+            </div>
+        </div>
+
+        <div id="player">
+            <img id="capa" src="" alt="">
+
+            <div class="info">
+                <h2 id="nome">Nome da musica</h2>
+                <p id="artista">Artista</p>
+                
+                <div class="tempo">
+                    <p id="min">0:00</p>
+                    <p id="max">0:00</p>
+                </div>
+                
+                <audio id="song" src="Audios/Taylor Swift - The Fate of Ophelia.mp3"></audio>
+                <input type="range" id="progress" value="0" min="0">
+                <div class="controls">
+                    <button id="less">-5</button>
+                    <button id="back" onclick="back()"><img src="Icons/back.png" alt=""></button>
+                    <button id="play" onclick="play()"><img src="Icons/play.png" alt=""></button>
+                    <button id="pause" onclick="pause()"><img src="Icons/pause.png" alt=""></button>
+                    <button id="next" onclick="next()"><img src="Icons/next.png" alt=""></button>
+                    <button id="plus">+5</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="linha"></div>
+    <p class="creditos">Desenvolvido por: <a class="creditos" href="https://github.com/LucasSiq31">Lucas Siqueira</a></p>
+</body>
+</html>
+
+<script src="musicas.js"></script>
+<script src="script.js"></script>
