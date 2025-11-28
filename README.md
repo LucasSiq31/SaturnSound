@@ -23,7 +23,7 @@ Veja o Guia de Configuração de Músicas: https://lucassiq31.github.io/SaturnSo
 
 ##
 
-Acesso à aplicação: https://lucassiq31.github.io/SoundSaturn/
+Acesso à aplicação: https://lucassiq31.github.io/SaturnSound/
 
 ##
 <b>Feito com:</b>
