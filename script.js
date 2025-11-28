@@ -21,7 +21,7 @@ function start(id){
 
     const m = musicas[id];
 
-    console.log(m.audio)
+    document.title = `Saturn Sound | ${m.nome} - ${m.artista}`;
     document.getElementById("song").src = m.audio;
     document.getElementById("capa").src = m.capa;
     document.getElementById("nome").textContent = m.nome;
@@ -103,4 +103,5 @@ function time(seg){
     }
 
     return(`${tempo_min}:${tempo_seg}`)
+
 }
